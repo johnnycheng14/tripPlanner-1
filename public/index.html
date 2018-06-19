@@ -1,14 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Trip Planner</title>
-   <link rel="stylesheet" href="./style.css"></link>
+    <meta charset="UTF-8">
+    <title>Trip Planner</title>
+    <link rel="stylesheet" href="./style.css"></link>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
     <script src="./bundle.js" defer></script>
-
 </head>
+
 <body>
- <div id="map"></div>
+    <nav id="nav"></nav>
+    <div id="map">
+        <div id="input">
+          <ul>
+
+
+
+            <p>Hotels</p>
+            <select>
+            </select>
+                <button type="button"></button>
+            <p>Restaurants</p>
+            <select>
+            </select>
+                <button type="button"></button>
+            <p>Things To Do</p>
+            <select>
+            </select>
+                <button type="button"></button>
+          </ul>
+        </div>
+        <section id="itinerary">
+          <div id="ItinHead">
+            <h2>Itinerary</h2>
+          </div>
+            <ul>
+                <p>Hotels</p>
+                <li>Hotel Choice
+                   <button type="button"></button>
+                </li>
+
+                <p>Restaurants</p>
+                <li>Restaurants Choice
+                  <button type="button"></button>
+                </li>
+
+                <p>Things To Do</p>
+                <li>Things To Do Choice
+                  <button type="button"></button>
+                </li>
+
+            </ul>
+        </section>
+    </div>
 </body>
+
 </html>
