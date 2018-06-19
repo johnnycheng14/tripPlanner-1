@@ -11,7 +11,7 @@ const markerDomEl = document.createElement("div"); // Create a new, detached DIV
     markerDomEl.style.width = "32px";
     markerDomEl.style.height = "39px";
 
-const buildMarker = (type, coords) =&gt; {
+const buildMarker = (type, coords) => {
     // Your Code Here
     if(type === "activity"){
     markerDomEl.style.backgroundImage = activities;
