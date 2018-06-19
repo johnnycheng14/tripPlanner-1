@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #C1B5AD;
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+}
+
+#input{
+  background-color: lightblue;
+  display: flex;
+  position: fixed;
+  width: 20%;
+  top: 100px;
+  right: 0;
+  z-index: 2;
+
+}
+
+#itinerary{
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 20%;
+  top: 400px;
+  right: 0px;
+  z-index: 2
+}
+
+#ItinHead{
+  background-color: lightblue;
+}
+
+@media (max-width: 800px) {
+
+ }
